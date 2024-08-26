@@ -57,6 +57,7 @@ __SYD._p3 = () =>{
 
 __SYD.about_text = () =>{
     return __c('p',{style:'font-size: 1.5rem;line-height: 1.75rem;max-width:500px;text-align:center;font-weight:100;'},[
-        `When you see a Pekingese, you know it's not just any dog—it's a royal furball with a personality as grand as its hairstyle. Now, imagine if that Pekingese was the king of the blockchain world. Enter Tron: sleek, efficient, and always ready to make an impression. `//,__c('span',{class:'rainbow__text'},[" $PEKE"])
+        `In the heart of ancient China, where emperors ruled and dynasties thrived, the Pekingese dog was a symbol of grandeur and prestige. Now, the spirit of this regal companion is making a triumphant return, but not in the imperial courts of old—this time, it's on the cutting edge of modern technology!
+        Meet "The Imperial Pekingese $PEKE," the newest meme sensation taking the Tron blockchain by storm. Just as the Pekingese once held court in the Forbidden City, it now reigns supreme in the world of cryptocurrency and blockchain innovation.`
     ])
 }
