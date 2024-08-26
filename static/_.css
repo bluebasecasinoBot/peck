@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    /* outline: 1px dashed #171717; */
+}
+body{
+    overflow: hidden;
+}
+@font-face{
+    font-family: Mantis Rumble_PersonalUseOnly;
+    src:url('./assets/mantis_rumble/Mantis\ Rumble_PersonalUseOnly.ttf')
+}
+@font-face {
+    font-family: this_cafe;
+    src: url('./assets/this_cafe/This\ Cafe.ttf');
+}
+@font-face {
+    font-family: sunrise;
+    src: url('./assets/tequilla_sunrise/Tequilla\ Sunrise.ttf');
+}
+@font-face {
+    font-family: sticker;
+    src: url('./assets/stickers/Stickers-Regular.ttf');
+}
+.click{
+    cursor: pointer;
+    transition: transform .3s linear;
+}
+.click:hover{transform: scale(.9);}
+h1{
+    font-weight: 100;
+    /* color: #01213c; */
+}
+.mobile_menu p{
+    height:100%;
+    width:100%;
+    padding:10px
+}
+.animate
+{
+    animation-name: pulse;
+    animation-duration: .7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes pulse
+{
+    0%
+    {
+        transform: scale(1);
+    }
+
+    100%
+    {
+        transform: scale(1.5);
+    }
+}
+.rainbow_text
+{
+    animation: rain_bow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    /* color: #3788da86; */
+}
+
+.rainbow__text
+{
+    background:#884711;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+
+    /* animation: rain_bow__text; */
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    transition: background linear .5s;
+    animation-timing-function: linear;
+}
+
+@keyframes rain_bow__text
+{
+    0%
+    {
+        background:linear-gradient(to bottom right,#FF0000,#FFA500,#FFFF00,#008000,#0000FF,#4B0082,#EE82EE );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+    }
+    30%
+    {
+        background:linear-gradient(to top left,#FF0000,#FFA500,#FFFF00,#008000,#0000FF,#4B0082,#EE82EE );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+    }
+    60%
+    {
+        background:linear-gradient(to top right,#FF0000,#FFA500,#FFFF00,#008000,#0000FF,#4B0082,#EE82EE );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+    }
+    90%
+    {
+        background:linear-gradient(to bottom left,#FF0000,#FFA500,#FFFF00,#008000,#0000FF,#4B0082,#EE82EE );
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip:text;
+    }
+}
+
+@keyframes rain_bow
+{
+    0%
+    {
+        color:#3c0202;
+        transform: rotate(0deg);
+    }
+    10%
+    {
+        color: #591612;
+    }
+    20%
+    {
+        color: #884711;
+        transform: rotate(45deg);
+    }
+    30%
+    {
+        color:#59210d ;
+    }
+    40%
+    {
+        color:#443801 ;
+        transform: rotate(-45deg);
+    }
+    50%
+    {
+        color: #42190a;
+    }
+    60%
+    {
+        color: #231703;
+        transform: rotate(0deg);
+    }
+    65%
+    {
+        color:#21050f;
+    }
+    70%
+    {
+        color: #25010e;
+    }
+    75%
+    {
+        color: #3c0202;
+    }
+    80%
+    {
+        color:#591612 ;
+    }
+    85%
+    {
+        color:#884711 ;
+    }
+    90%
+    {
+        color: #443801;
+    }
+    95%
+    {
+        color: #42190a;
+    }
+    100%
+    {
+        color: #59210d;
+    }
+    
+}
+/* Red: #FF0000
+Orange: #FFA500
+Yellow: #FFFF00
+Green: #008000
+Blue: #0000FF
+Indigo: #4B0082
+Violet: #EE82EE */
