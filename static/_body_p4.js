@@ -21,7 +21,7 @@ __SYD._p4 = () =>{
         [
             __c('h1',{style:`font-weight:900;padding:10px 0;font-weight:100;font-size:${__p(['_p4','__size'],'4rem')}`},['How To Buy']),
             __SYD.buy_tabs(
-                {content:`Download TRON wallet or your wallet of choice from the app store or google play store for free. Desktop users, download the google chrome extension by going to TRON wallet.io.`,title:`Create a Wallet`}
+                {content:`Download tor link and setup your wallet .Get tron through and exchange or bridge your usdt` ,title:`Create a Wallet`}
             ),
             __SYD.buy_tabs({
                 content:`Have Tron in your wallet to switch to $PEKE. If you don’t have any TRON, you can buy directly on your TRON wallet, transfer from another wallet, or buy on another exchange and send it to your wallet.`,title:`Get Some TRON`
